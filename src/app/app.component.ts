@@ -17,4 +17,8 @@ constructor(private messageService: CommunicationService) {
     this.messageService.sendMessage('Message from Home Component to App Component!');
     console.log('enviado mensaje');
   }
+  clearMessage(): void {
+    // clear message
+    this.messageService.clearMessage();
+  }
 }

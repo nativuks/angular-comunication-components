@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { CommunicationService } from './shared/services/communication.service';
 import { NavbarModule } from './navbar/navbar.module';
 import { ComunnicationComponent } from './comunnication/comunnication.component';
+import { ObscomunicationComponent } from './obscomunication/obscomunication.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComunnicationComponent
+    ComunnicationComponent,
+    ObscomunicationComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import {ComunnicationComponent} from './comunnication/comunnication.component';
 const routes: Routes = [
 
   { path: 'navbar', component: ComunnicationComponent},
+  { path: 'observer', component: ComunnicationComponent},
 ];
 
 @NgModule({

@@ -17,7 +17,6 @@ export class ComunnicationComponent implements OnInit {
     console.log('llamando servicios');
     this.subscription = this.communicationService.getMessage().subscribe((mesg) => {
       this.message = mesg;
-      console.log(this.message);
       console.log('dentro del callback');
     });
   }
