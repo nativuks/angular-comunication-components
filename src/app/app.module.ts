@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommunicationService } from './shared/services/communication.service';
 import { NavbarModule } from './navbar/navbar.module';
+import { ComunnicationComponent } from './comunnication/comunnication.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComunnicationComponent
   ],
   imports: [
     BrowserModule,
